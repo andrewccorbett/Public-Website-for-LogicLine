@@ -16,27 +16,26 @@ const LinkIcon = () => (
 
 
 export const TeamSection = forwardRef<HTMLElement>((props, ref) => {
-    const { name, title, image, bio, socials } = TEAM_DATA;
+    const { name, title, bio, socials } = TEAM_DATA;
 
     return (
         <Section ref={ref} id="team">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">Meet the Founder</h2>
-            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 grid md:grid-cols-3 gap-8 items-center">
-                <div className="md:col-span-1 flex flex-col items-center text-center">
-                    <img src={image} alt={name} className="w-40 h-40 rounded-full object-cover shadow-md mb-4" />
+            <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
+                <div className="text-center mb-6">
                     <h3 className="text-2xl font-bold text-neutral-800">{name}</h3>
                     <p className="text-blue-700 font-semibold">{title}</p>
-                    <div className="flex space-x-4 mt-4">
-                        <a href={socials[0].url} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-blue-600 transition-colors">
+                    <div className="flex justify-center space-x-4 mt-4">
+                        <a href={socials[0].url} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-blue-600 transition-colors" aria-label="LinkedIn Profile">
                            <LinkedInIcon />
                         </a>
-                        <a href={socials[1].url} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-blue-600 transition-colors">
+                        <a href={socials[1].url} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-blue-600 transition-colors" aria-label="Notre Dame ESTEEM Profile">
                            <LinkIcon />
                         </a>
                     </div>
                 </div>
-                <div className="md:col-span-2">
-                    <p className="text-neutral-700 leading-relaxed">{bio}</p>
+                <div>
+                    <p className="text-neutral-700 leading-relaxed text-left">{bio}</p>
                 </div>
             </div>
         </Section>
