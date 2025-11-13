@@ -9,6 +9,7 @@ import { MarketSection } from './components/MarketSection';
 import { ComparisonSection } from './components/ComparisonSection';
 import { TeamSection } from './components/TeamSection';
 import { Footer } from './components/Footer';
+import { Chatbot } from './components/Chatbot';
 import { NAV_LINKS } from './constants';
 import type { NavLink } from './types';
 
@@ -57,6 +58,7 @@ const App: React.FC = () => {
                 <TeamSection ref={el => sectionRefs.current['team'] = el} />
             </main>
             <Footer />
+            <Chatbot />
         </div>
     );
 };
