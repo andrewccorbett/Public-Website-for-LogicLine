@@ -67,6 +67,23 @@ export const HowItWorksSection = forwardRef<HTMLElement>((props, ref) => {
                     icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>}
                 />
             </div>
+
+            {/* Ethical Implementation Section */}
+            <div className="mt-16 bg-blue-50 rounded-xl p-8 border border-blue-100 max-w-6xl mx-auto">
+                <div className="flex flex-col md:flex-row gap-6 items-start">
+                     <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-sm text-blue-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 className="text-2xl font-bold text-blue-900 mb-2">Ethical Implementation & Unparalleled Insight</h3>
+                        <p className="text-lg text-neutral-700 leading-relaxed">
+                            LogicLine operates with a strict commitment to ethical data collection. We utilize <strong>only publicly available information</strong>—patent databases, open academic research, and regulatory filings—ensuring we never compromise privacy or engage in corporate espionage. By synthesizing this vast public dataset, we provide more than just surveillance; we deliver deep, contextual industry insights that empower founders to navigate the market with integrity and foresight.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </Section>
     );
 });

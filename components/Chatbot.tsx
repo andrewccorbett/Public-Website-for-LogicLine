@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { GoogleGenAI } from '@google/genai';
 
@@ -18,6 +19,7 @@ const systemInstruction = `You are a helpful and friendly AI assistant for Logic
 **AI Technology:** The "AI Core" uses a dual-engine AI:
 1.  **Retrieval-Augmented Generation (RAG):** Scans and extracts information from public data like patents, VC press releases, and technical blogs.
 2.  **Multi-Modal Chain-of-Thought Processing (MCP):** Synthesizes the findings to identify patterns and critical signals.
+**Ethical Use & Insight:** LogicLine operates ethically by using **only publicly available information** (e.g., patents, academic papers). It explicitly is **not** a corporate spy tool and does not access private servers. Its value lies in synthesizing public data to provide unparalleled industry insight and context, not just surveillance.
 **User Interaction:** The user provides initial context (R&D tracks, competitors). The AI works autonomously, and the user interacts with a clean feed of alerts and a dashboard.
 **Market:**
 -   Total Addressable Market (TAM): $700M+ (Global strategic intelligence for early ventures).
