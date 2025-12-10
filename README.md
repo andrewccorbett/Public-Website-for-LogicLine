@@ -3,7 +3,10 @@
 
 This project is an interactive web application that serves as a comprehensive business pitch for **LogicLine Innovation**. The content and visual assets were co-created with the Gemini API along with the work that Andrew is completing in his product market fit course. This is the essentially the visualization and the MVP of the concept that he has been testing in that course.
 
-The application's primary goal is to present a compelling narrative for a strategic intelligence platform designed for deep-tech and robotics companies. It walks the user through the problem, the solution, the underlying AI technology, a product demo, and market analysis, culminating in an introduction to the founding team (me).
+The application's primary goal is to present a compelling narrative for a strategic intelligence platform designed for deep-tech and robotics companies. It walks the user through the problem, the solution, the underlying AI technology, a product demo, and market analysis, culminating in an introduction to the founding team (me). To use the tool via the demo, enter information that pertains to your strategic goals (area of interest, key objectives, key competitors) and generate the strategic dashboard that will give industry insights (live actionable feed, funding, and competitor heatmap). Future iterations will include more actionable urgency scores to address the most important issues.
+
+Video File Demo: https://drive.google.com/file/d/1mvCNsljx5mQ6DRq3kScghnA55IKNewMi/view?usp=sharing
+Technologies Used: Google Gemini AI Studio 
 
 ## How to Use the Website
 
